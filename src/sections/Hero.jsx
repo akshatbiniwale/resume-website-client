@@ -1,5 +1,7 @@
 import React from "react";
 import PROFILE_PIC from "../assets/images/PROFILE_PIC.jpg";
+import { STATS } from "../utils/data";
+import StatInfoCard from "../components/StatInfoCard";
 
 const Hero = () => {
 	return (
@@ -9,7 +11,7 @@ const Hero = () => {
 					<h3 className="text-xl lg:text-2xl font-medium text-black">
 						👋 Hi, I'm Akshat Biniwale
 					</h3>
-					<h1 className="w-full lg:w-[480px] text-4xl lg:text-5xl font-bold leading-[50px] lg:leading-[60px] bg-gradient-primary bg-clip-text text-transparent">
+					<h1 className="w-full lg:w-[480px] text-4xl lg:text-5xl font-bold leading-[50px] lg:leading-[60px] bg-gradient-primary bg-clip-text text-transparent mt-5">
 						Building something something which i will update later
 					</h1>
 
@@ -39,6 +41,15 @@ const Hero = () => {
 						className="icon-img left-10 bottom-20 rotate-[1.75deg]"
 					/> */}
 				</div>
+			</div>
+			<div className="xl:flex grid grid-cols-2 md:grid-cols-2 gap-12 mt-16 md:mt-24">
+				{STATS.map((item) => (
+					<StatInfoCard
+						key={item.id}
+						count={item.count}
+						label={item.label}
+					/>
+				))}
 			</div>
 		</section>
 	);
