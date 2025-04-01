@@ -22,4 +22,24 @@
     .menu-item {
         @apply relative before:content-[''] before:absolute before:w-0 before:h-[3px] before:bg-gradient-primary before:rounded-full before:bottom-0 before:left-0 before:transition-all before:duration-300 hover:before:w-full cursor-pointer;
     }
+
+    .action-btn-outline {
+        @apply h-10 md:h-12 text-xs md:text-[14px] font-medium text-primary px-4 lg:px-10 rounded-[71px] border-2 border-primary;
+    }
+
+    .btn-scale-anim {
+        @apply transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg;
+    }
+
+    .action-btn {
+        @apply h-10 md:h-12 text-xs md:text-[14px] font-medium text-white px-4 lg:px-10 rounded-[71px] bg-gradient-primary;
+    }
+
+    .profile-pic {
+        @apply w-[300px] md:w-[370px] rotate-[5.75deg] transition-transform duration-300 ease-in-out hover:scale-105 hover:rotate-[3deg];
+    }
+
+    .icon-img {
+        @apply w-12 md:w-16 h-12 md:h-16 absolute transition-transform duration-300 ease-in-out hover:scale-110 hover:rotate-0;
+    }
 }

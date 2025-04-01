@@ -4,7 +4,7 @@ import Hero from './sections/Hero';
 
 const App = () => {
 	return (
-		<div>
+		<div className="xl:mx-32">
 			<Navbar />
       <Hero />
       
