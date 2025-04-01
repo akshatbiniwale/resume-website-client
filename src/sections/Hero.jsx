@@ -26,7 +26,7 @@ const Hero = () => {
 						</button>
 					</div>
 				</div>
-				<div className="w-[300px] md:w-[370px] h-[350px] md:h-[428px] bg-orange-100/50 rounded-3xl relative order-1 lg:order-2">
+				<div className="w-[300px] md:w-[370px] h-[350px] md:h-[428px] bg-blue-200 rounded-3xl relative order-1 lg:order-2">
 					<img
 						src={PROFILE_PIC}
 						alt="Profile Pic"

@@ -31,7 +31,7 @@ const Navbar = () => {
 	return (
 		<nav className="container mx-auto sticky top-5 z-10">
 			<div
-				className="flex items-center justify-between rounded-full bg-white/25 border border-[#fee6cc] backdrop-blur-[10px]
+				className="flex items-center justify-between rounded-full bg-white/25 border border-[#cce6fe] backdrop-blur-[10px]
             m-5 p-3 md:p-0"
 			>
 				{/* logo */}

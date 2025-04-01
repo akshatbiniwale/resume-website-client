@@ -13,7 +13,7 @@ export default {
 
 			backgroundImage: {
 				"gradient-primary":
-					"linear-gradient(to right, #f4a44f, #ac573f)",
+					"linear-gradient(to right, #4f9cf4, #3f57ac)",
 			},
 		},
 	},
