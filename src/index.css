@@ -42,4 +42,8 @@
     .icon-img {
         @apply w-12 md:w-16 h-12 md:h-16 absolute transition-transform duration-300 ease-in-out hover:scale-110 hover:rotate-0;
     }
+
+    .section-title {
+        @apply text-[26px] font-semibold text-center bg-gradient-primary bg-clip-text text-transparent;
+    }
 }
