@@ -102,25 +102,37 @@ export const ABOUT_ME = {
 export const PROJECTS = [
 	{
 		id: 1,
-		title: "ECAS",
+		title: "ECAS1",
 		image: "hi",
 		tags: ["React", "Express.js", "MongoDB", "Node.js"],
 	},
 	{
 		id: 2,
-		title: "ECAS",
+		title: "ECAS2",
 		image: "hi",
 		tags: ["React", "Express.js", "MongoDB", "Node.js"],
 	},
 	{
 		id: 3,
-		title: "ECAS",
+		title: "ECAS3",
 		image: "hi",
 		tags: ["React", "Express.js", "MongoDB", "Node.js"],
 	},
 	{
 		id: 4,
-		title: "ECAS",
+		title: "ECAS4",
+		image: "hi",
+		tags: ["React", "Express.js", "MongoDB", "Node.js"],
+	},
+	{
+		id: 5,
+		title: "ECAS5",
+		image: "hi",
+		tags: ["React", "Express.js", "MongoDB", "Node.js"],
+	},
+	{
+		id: 6,
+		title: "ECAS6",
 		image: "hi",
 		tags: ["React", "Express.js", "MongoDB", "Node.js"],
 	},
