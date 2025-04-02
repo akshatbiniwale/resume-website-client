@@ -46,7 +46,8 @@ export const SKILLS = [
 		icon: FaReact,
 		skill: "React JS",
 		type: "frontend",
-		description: "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+		description:
+			"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
 		progress: 35,
 	},
 	{
@@ -54,7 +55,8 @@ export const SKILLS = [
 		icon: FaReact,
 		skill: "React JS",
 		type: "frontend",
-		description: "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+		description:
+			"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
 		progress: 40,
 	},
 	{
@@ -62,7 +64,8 @@ export const SKILLS = [
 		icon: FaReact,
 		skill: "React JS",
 		type: "frontend",
-		description: "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+		description:
+			"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
 		progress: 45,
 	},
 	{
@@ -70,7 +73,17 @@ export const SKILLS = [
 		icon: FaReact,
 		skill: "React JS",
 		type: "frontend",
-		description: "blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+		description:
+			"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
+		progress: 50,
+	},
+	{
+		id: "05",
+		icon: FaReact,
+		skill: "React JS",
+		type: "backend",
+		description:
+			"blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah",
 		progress: 50,
 	},
 ];

@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useState } from "react";
 import { SKILL_TABS, SKILLS } from "../utils/data";
 import Tabs from "../components/Tabs";
