@@ -29,7 +29,7 @@ const ContactMe = () => {
 						/>
 						<ContactInfoCard
 							icon={<MdOutlineWeb />}
-							text={ABOUT_ME.phone}
+							text={ABOUT_ME.website}
 						/>
 					</div>
 

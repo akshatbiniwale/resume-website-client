@@ -12,7 +12,7 @@ const TechnicalProf = () => {
 
 	const handleTabValueChange = (value) => {
 		if (value == "all") {
-			setActiveTab(SKILLS);
+			setTabData(SKILLS);
 			setActiveTab("all");
 			return;
 		}

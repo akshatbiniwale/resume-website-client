@@ -50,6 +50,7 @@ const MyProjects = () => {
 										imgUrl={project.image}
 										title={project.title}
 										tags={project.tags}
+										link={project.link}
 									/>
 								</div>
 							))}
