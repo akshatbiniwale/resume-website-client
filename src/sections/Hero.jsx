@@ -49,12 +49,6 @@ const Hero = () => {
 						alt="Profile Pic"
 						className="profile-pic rounded-3xl"
 					/>
-
-					{/* <img
-						src=""
-						alt="Icon 1"
-						className="icon-img left-10 bottom-20 rotate-[1.75deg]"
-					/> */}
 				</div>
 			</div>
 			<div className="grid grid-cols-1 md:grid-cols-2 xl:flex gap-12 mt-16 md:mt-24">

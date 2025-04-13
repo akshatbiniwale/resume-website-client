@@ -7,7 +7,7 @@ const ProjectCard = ({ link, imgUrl, title, tags }) => {
 				<img
 					src={imgUrl}
 					alt={title}
-					className="w-full h-72 md:h-80 object-cover"
+					className="w-full h-72 md:h-80 object-fill"
 				/>
 			</a>
 

@@ -7,6 +7,7 @@ import {
 	FaInstagram,
 	FaLinkedin,
 	FaGithub,
+	FaFileExcel,
 } from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
 import { SiExpress, SiMongodb, SiMysql, SiWebpack } from "react-icons/si";
@@ -51,10 +52,10 @@ export const MENU_LINKS = [
 ];
 
 export const STATS = [
-	{ id: "01", count: "1", label: "Years of \nExperience" },
+	{ id: "01", count: "1", label: "Year of \nExperience" },
 	{ id: "02", count: "35+", label: "Automations \nImplemented" },
 	{ id: "03", count: "4", label: "Projects \nBuilt" },
-	{ id: "04", count: "320+", label: "Users \nImpacted" },
+	{ id: "04", count: "320+", label: "End Users \nSupported" },
 ];
 
 export const SKILL_TABS = [
@@ -72,7 +73,7 @@ export const SKILLS = [
 		skill: "React JS",
 		type: "frontend",
 		description:
-			"Built multiple full-stack applications using React. Focused on component-based architecture, state management, and responsive UI using Tailwind CSS.",
+			"Built responsive UIs using component-based structure and Tailwind CSS.",
 		progress: 85,
 	},
 	{
@@ -81,7 +82,7 @@ export const SKILLS = [
 		skill: "Node.js",
 		type: "backend",
 		description:
-			"Developed scalable APIs with Node.js and Express. Integrated RESTful services and optimized backend performance.",
+			"Created scalable backend services using Express and RESTful APIs.",
 		progress: 80,
 	},
 	{
@@ -90,7 +91,7 @@ export const SKILLS = [
 		skill: "MongoDB",
 		type: "backend",
 		description:
-			"Designed and managed NoSQL databases for efficient data storage. Used Mongoose for schema validation and data modeling.",
+			"Designed schemas with Mongoose and managed NoSQL data efficiently.",
 		progress: 75,
 	},
 	{
@@ -99,7 +100,7 @@ export const SKILLS = [
 		skill: "MySQL",
 		type: "backend",
 		description:
-			"Worked extensively with relational databases. Optimized queries and managed data using MySQL and PostgreSQL.",
+			"Wrote optimized queries and handled relational data with MySQL.",
 		progress: 70,
 	},
 	{
@@ -108,7 +109,7 @@ export const SKILLS = [
 		skill: "PostgreSQL",
 		type: "backend",
 		description:
-			"Used PostgreSQL in full-stack applications, ensuring data integrity and performance tuning.",
+			"Utilized PostgreSQL for full-stack apps and performance tuning.",
 		progress: 65,
 	},
 	{
@@ -117,7 +118,7 @@ export const SKILLS = [
 		skill: "Tailwind CSS",
 		type: "frontend",
 		description:
-			"Created responsive and visually appealing UI using Tailwind. Improved development speed with utility-first CSS.",
+			"Styled applications quickly with utility-first CSS for responsive design.",
 		progress: 85,
 	},
 	{
@@ -126,7 +127,7 @@ export const SKILLS = [
 		skill: "JavaScript",
 		type: "backend",
 		description:
-			"Proficient in JavaScript ES6+. Built interactive web applications, handled asynchronous operations, and optimized performance.",
+			"Built interactive UIs, handled async ops, and DOM manipulation.",
 		progress: 90,
 	},
 	{
@@ -135,7 +136,7 @@ export const SKILLS = [
 		skill: "Redux Toolkit",
 		type: "frontend",
 		description:
-			"Managed global state efficiently in React applications. Implemented Redux Toolkit for predictable state updates.",
+			"Managed global state predictably in React projects using Redux Toolkit.",
 		progress: 70,
 	},
 	{
@@ -144,7 +145,7 @@ export const SKILLS = [
 		skill: "Python",
 		type: "backend",
 		description:
-			"Worked on data analysis and automation tasks using Python. Used libraries like NumPy and Pandas for data manipulation.",
+			"Automated tasks and analyzed data using NumPy, Pandas, and SQL.",
 		progress: 65,
 	},
 	{
@@ -153,7 +154,7 @@ export const SKILLS = [
 		skill: "NumPy",
 		type: "tools",
 		description:
-			"Used NumPy for numerical computing and efficient array operations in data analysis projects.",
+			"Performed array-based computation and numerical operations in Python.",
 		progress: 60,
 	},
 	{
@@ -162,7 +163,7 @@ export const SKILLS = [
 		skill: "Pandas",
 		type: "tools",
 		description:
-			"Utilized Pandas for data cleaning, manipulation, and analysis in analytics projects.",
+			"Cleaned, transformed, and analyzed data for insights and reporting.",
 		progress: 60,
 	},
 	{
@@ -171,7 +172,7 @@ export const SKILLS = [
 		skill: "C++",
 		type: "backend",
 		description:
-			"Strong understanding of C++ for DSA. Solved problems on various competitive coding platforms.",
+			"Solved 250+ DSA problems and strengthened logic via CP platforms.",
 		progress: 85,
 	},
 	{
@@ -180,7 +181,7 @@ export const SKILLS = [
 		skill: "Communication",
 		type: "soft-skills",
 		description:
-			"Effectively convey ideas, actively listen, and collaborate with teams to ensure clarity and efficiency.",
+			"Clearly presented insights, collaborated with teams, and explained data logic.",
 		progress: 90,
 	},
 	{
@@ -189,7 +190,7 @@ export const SKILLS = [
 		skill: "Problem-Solving",
 		type: "soft-skills",
 		description:
-			"Analytical thinking and creativity in approaching challenges, optimizing workflows, and improving efficiency.",
+			"Tackled complex issues using root cause analysis and automation.",
 		progress: 85,
 	},
 	{
@@ -198,7 +199,7 @@ export const SKILLS = [
 		skill: "Teamwork",
 		type: "soft-skills",
 		description:
-			"Experience working in cross-functional teams, fostering collaboration, and achieving shared goals.",
+			"Worked across 25+ teams, syncing goals with sales and data units.",
 		progress: 90,
 	},
 	{
@@ -207,7 +208,7 @@ export const SKILLS = [
 		skill: "Time Management",
 		type: "soft-skills",
 		description:
-			"Prioritizing tasks effectively to meet deadlines and ensure maximum productivity.",
+			"Delivered timely automations and daily reports within tight deadlines.",
 		progress: 80,
 	},
 	{
@@ -216,8 +217,26 @@ export const SKILLS = [
 		skill: "Adaptability",
 		type: "soft-skills",
 		description:
-			"Quickly learning new technologies, adjusting to changing requirements, and staying flexible in problem-solving.",
+			"Adapted to sales domain, picked up CRM logic and ops quickly.",
 		progress: 85,
+	},
+	{
+		id: "18",
+		icon: SiMysql,
+		skill: "SQL",
+		type: "tools",
+		description:
+			"Wrote complex queries, performed joins, aggregations, and optimized scanning costs.",
+		progress: 85,
+	},
+	{
+		id: "19",
+		icon: FaFileExcel,
+		skill: "Excel / Google Sheets",
+		type: "tools",
+		description:
+			"Created automated trackers, dashboards, and managed revenue data pipelines.",
+		progress: 90,
 	},
 ];
 
@@ -260,7 +279,14 @@ export const PROJECTS = [
 		id: 1,
 		title: "AutoXCell",
 		image: autoxcell,
-		tags: ["MERN Stack", "Python", "Machine Learning"],
+		tags: [
+			"MongoDB",
+			"Express.js",
+			"Node.js",
+			"React.js",
+			"Python",
+			"Machine Learning",
+		],
 		description:
 			"An examination cell automation system that automates seat allocation, scheduling, and grade management with role-based access.",
 		link: "https://github.com/akshatbiniwale/client-ecas",
@@ -269,7 +295,7 @@ export const PROJECTS = [
 		id: 2,
 		title: "Strings - Blog Website",
 		image: strings,
-		tags: ["MERN Stack"],
+		tags: ["MongoDB", "Express.js", "Node.js", "React.js"],
 		description:
 			"A responsive blog site where users can write, edit, and manage posts. Features rich text editing, comments, and a search function.",
 		link: "https://github.com/akshatbiniwale/summer-projects/tree/blog-app",
@@ -287,7 +313,7 @@ export const PROJECTS = [
 		id: 4,
 		title: "MealForAll",
 		image: mealforall,
-		tags: ["MERN Stack"],
+		tags: ["MongoDB", "Express.js", "Node.js", "React.js"],
 		description:
 			"A platform that connects NGOs with organizations that have surplus food. Won 3rd place at a hackathon for its impact.",
 		link: "https://github.com/akshatbiniwale/MealForAll",
@@ -296,8 +322,9 @@ export const PROJECTS = [
 		id: 5,
 		title: "Production Line Tracking System",
 		image: aican,
-		tags: ["React", "Node.js", "PostgreSQL"],
+		tags: ["Express.js", "React.js", "Node.js", "PostgreSQL"],
 		description:
 			"Developed for AICAN, this system allows seamless inventory check-in/out with QR codes and RFID scanning for accurate tracking.",
+		link: "https://aican.in/",
 	},
 ];

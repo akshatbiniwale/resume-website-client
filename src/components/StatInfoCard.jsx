@@ -2,7 +2,7 @@ import React from "react";
 
 const StatInfoCard = ({ count, label }) => {
 	return (
-		<div className="flex-1 flex gap-3 md:gap-5 bg-gradient-to-b from-[#ecf3fc] to-[#ffffff] rounded-[14px] p-5 items-center">
+		<div className="flex-1 flex gap-3 md:gap-5 bg-gradient-to-b from-[#d1e5ff] to-[#ffffff] rounded-[14px] p-5 items-center">
 			<h4 className="text-4xl md:text-5xl font-medium text-blue-600">
 				{count}
 			</h4>

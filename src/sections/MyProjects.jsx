@@ -46,7 +46,7 @@ const MyProjects = () => {
 							{PROJECTS.map((project) => (
 								<div
 									key={project.id}
-									className="min-w-[100%] sm:min-w-[50%] lg:min-w-[33%]"
+									className="min-w-[100%] md:min-w-[77%] lg:min-w-[54%] xl:min-w-[38%]"
 								>
 									<ProjectCard
 										key={project.id}
