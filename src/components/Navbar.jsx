@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import { MENU_LINKS } from "../utils/data";
 import { Link } from "react-scroll";
+import logo from "../assets/images/logo.png";
 
 const Navbar = () => {
 	const [iSOpen, setISOpen] = useState(true);
@@ -35,7 +36,7 @@ const Navbar = () => {
             m-5 p-3 md:p-0"
 			>
 				{/* logo */}
-				<img className="h-7 ml-6 -mb-1" src="#" alt="logo" />
+				<img className="h-4 ml-6" src={logo} alt="logo" />
 
 				{/* hamburger icon visible only on small screen side */}
 				<button

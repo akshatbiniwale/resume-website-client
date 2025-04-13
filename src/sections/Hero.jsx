@@ -11,12 +11,19 @@ const Hero = () => {
 					<h3 className="text-xl lg:text-2xl font-medium text-black">
 						👋 Hi, I'm Akshat Biniwale
 					</h3>
-					<h1 className="w-full lg:w-[480px] text-4xl lg:text-5xl font-bold leading-[50px] lg:leading-[60px] bg-gradient-primary bg-clip-text text-transparent mt-5">
-						Building something something which i will update later
+					<h1 className="w-full lg:w-[560px] text-4xl lg:text-5xl font-bold leading-[50px] lg:leading-[60px] bg-gradient-primary bg-clip-text text-transparent mt-5">
+						From data to development; solving real-world problems
+						with code.
 					</h1>
 
 					<p className="w-full lg:w-[500px] text-sm lg:text-base mt-4">
-						I am this that etc etc
+						I'm a final-year Computer Engineering student currently
+						interning at WorkIndia, where I help build scalable
+						automations and deliver insightful analysis. With
+						experience in full-stack development and tools like
+						MERN, Django, SQL, and C++, I’m now focused on
+						transitioning into a full-time Software Engineering
+						role.
 					</p>
 
 					<div className="flex justify-center lg:justify-start gap-4 md:gap-8 mt-6">
@@ -24,7 +31,12 @@ const Hero = () => {
 							View My Work
 						</button>
 						<button className="flex-1 md:flex-none action-btn btn-scale-anim">
-							Download Resume
+							<a
+								href="/resume@akshatbiniwale.pdf"
+								download="resume@akshatbiniwale.pdf"
+							>
+								Download Resume
+							</a>
 						</button>
 					</div>
 				</div>
@@ -42,7 +54,7 @@ const Hero = () => {
 					/> */}
 				</div>
 			</div>
-			<div className="xl:flex grid grid-cols-2 md:grid-cols-2 gap-12 mt-16 md:mt-24">
+			<div className="grid grid-cols-1 md:grid-cols-2 xl:flex gap-12 mt-16 md:mt-24">
 				{STATS.map((item) => (
 					<StatInfoCard
 						key={item.id}
