@@ -1,5 +1,5 @@
 import React from "react";
-import PROFILE_PIC from "../assets/images/PROFILE_PIC.jpg";
+import PROFILE_PIC_2 from "../assets/images/PROFILE_PIC_2.jpg";
 import { ABOUT_ME } from "../utils/data";
 
 const Aboutme = () => {
@@ -12,8 +12,8 @@ const Aboutme = () => {
 			<div className="flex flex-col lg:flex-row gap-32 items-start justify-between">
 				<div className="w-[300px] md:w-[370px] h-[350px] md:h-[428px] bg-blue-200 rounded-3xl mx-auto">
 					<img
-						src={PROFILE_PIC}
-						alt="Profile Pic"
+						src={PROFILE_PIC_2}
+						alt="Profile Pic 2"
 						className="profile-pic rounded-3xl "
 					/>
 				</div>
@@ -32,6 +32,7 @@ const Aboutme = () => {
 							<a
 								key={item.label}
 								className="cursor-pointer group"
+								href={item.link}
 							>
 								<item.icon className="text-2xl text-blue-500 transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110 group-hover:translate-y-[-2px] group-hover:text-blue-500" />
 							</a>

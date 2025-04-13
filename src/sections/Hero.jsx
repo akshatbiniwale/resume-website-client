@@ -2,6 +2,7 @@ import React from "react";
 import PROFILE_PIC from "../assets/images/PROFILE_PIC.jpg";
 import { STATS } from "../utils/data";
 import StatInfoCard from "../components/StatInfoCard";
+import { Link } from "react-scroll";
 
 const Hero = () => {
 	return (
@@ -27,17 +28,19 @@ const Hero = () => {
 					</p>
 
 					<div className="flex justify-center lg:justify-start gap-4 md:gap-8 mt-6">
-						<button className="flex-1 md:flex-none action-btn-outline btn-scale-anim">
-							View My Work
-						</button>
-						<button className="flex-1 md:flex-none action-btn btn-scale-anim">
-							<a
-								href="/resume@akshatbiniwale.pdf"
-								download="resume@akshatbiniwale.pdf"
-							>
+						<Link to="projects" smooth>
+							<button className="flex-1 md:flex-none action-btn-outline btn-scale-anim">
+								View My Work
+							</button>
+						</Link>
+						<a
+							href="/resume@akshatbiniwale.pdf"
+							download="resume@akshatbiniwale.pdf"
+						>
+							<button className="flex-1 md:flex-none action-btn btn-scale-anim">
 								Download Resume
-							</a>
-						</button>
+							</button>
+						</a>
 					</div>
 				</div>
 				<div className="w-[300px] md:w-[370px] h-[350px] md:h-[428px] bg-blue-200 rounded-3xl relative order-1 lg:order-2">

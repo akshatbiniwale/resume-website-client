@@ -6,6 +6,7 @@ import {
 	FaFacebook,
 	FaInstagram,
 	FaLinkedin,
+	FaGithub,
 } from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
 import { SiExpress, SiMongodb, SiMysql, SiWebpack } from "react-icons/si";
@@ -33,12 +34,13 @@ import {
 	SiNumpy,
 	SiPandas,
 	SiCplusplus,
+	SiLeetcode,
 } from "react-icons/si";
 import autoxcell from "../assets/images/autoxcell.png";
 import connectplus from "../assets/images/connectplus.png";
 import strings from "../assets/images/strings.png";
 import mealforall from "../assets/images/mealforall.png";
-import aican from "../assets/images/aican.png"
+import aican from "../assets/images/aican.png";
 
 export const MENU_LINKS = [
 	{ id: "01", label: "Home", offset: -100, to: "hero" },
@@ -220,14 +222,37 @@ export const SKILLS = [
 ];
 
 export const ABOUT_ME = {
-	content: "write something about me over here...",
+	content:
+		"Hi, I'm Akshat Biniwale, a Computer Engineering student at Sardar Patel Institute of Technology. I have a strong interest in problem-solving and software development, backed by hands-on experience in C++, JavaScript, and Python. \n\nI began my professional journey as a Full-Stack Developer intern at AICAN, where I contributed to building key product features. Later, I interned as a Data Analyst at WorkIndia, where I worked with SQL and automation to improve data processes and reporting efficiency. These roles gave me valuable insight into how both data and software contribute to solving real-world business problems. \n\nOver time, I realized my true passion lies in building software. Since then, I’ve focused on full-stack development, working with technologies like the MERN stack and Django. Through personal projects and continuous learning, I’ve developed a solid understanding of both frontend and backend systems. \n\nNow, I’m excited to step into a full-time Software Development Engineer role where I can apply my skills, build meaningful products, and continue learning from real-world challenges.",
 	socialLinks: [
-		{ id: "01", label: "LinkedIn", icon: FaLinkedin, link: "#" },
-		{ id: "02", label: "GitHub", icon: FaLinkedin, link: "#" },
+		{
+			id: "01",
+			label: "LinkedIn",
+			icon: FaLinkedin,
+			link: "https://www.linkedin.com/in/akshatbiniwale/",
+		},
+		{
+			id: "02",
+			label: "GitHub",
+			icon: FaGithub,
+			link: "https://github.com/akshatbiniwale",
+		},
+		{
+			id: "03",
+			label: "LeetCode",
+			icon: SiLeetcode,
+			link: "https://leetcode.com/u/akshatbiniwale/",
+		},
+		{
+			id: "04",
+			label: "Instagram",
+			icon: FaInstagram,
+			link: "https://www.instagram.com/akshatbiniwale_/",
+		},
 	],
 	email: "akshatbiniwale@gmail.com",
 	phone: "+91 7506961794",
-	website: "https://www.linkedin.com/in/akshatbiniwale/",
+	linkedin: "https://www.linkedin.com/in/akshatbiniwale/",
 };
 
 export const PROJECTS = [

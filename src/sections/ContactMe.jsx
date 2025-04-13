@@ -58,14 +58,17 @@ const ContactMe = () => {
 						<ContactInfoCard
 							icon={<IoMdMail />}
 							text={ABOUT_ME.email}
+							type={"email"}
 						/>
 						<ContactInfoCard
 							icon={<IoPhonePortraitOutline />}
 							text={ABOUT_ME.phone}
+							type={"phone"}
 						/>
 						<ContactInfoCard
 							icon={<MdOutlineWeb />}
-							text={ABOUT_ME.website}
+							text={ABOUT_ME.linkedin}
+							type={"linkedin"}
 						/>
 					</div>
 

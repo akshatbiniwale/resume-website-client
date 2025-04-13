@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import { MENU_LINKS } from "../utils/data";
-import { Link } from "react-scroll";
+import { Link, scroller } from "react-scroll";
 import logo from "../assets/images/logo.png";
 
 const Navbar = () => {
@@ -9,6 +9,14 @@ const Navbar = () => {
 
 	const toggleMenu = () => {
 		setISOpen(!iSOpen);
+	};
+
+	const scrollToContact = () => {
+		scroller.scrollTo("contact", {
+			duration: 800,
+			delay: 0,
+			smooth: "easeInOutQuart",
+		});
 	};
 
 	useEffect(() => {
@@ -87,7 +95,10 @@ const Navbar = () => {
 				</ul>
 
 				{/* hire me */}
-				<button className="hidden md:block h-12 text-[15px] font-medium text-white bg-gradient-primary rounded-full px-9 transition-transform duration-300 ease-in-out hover:scale-105">
+				<button
+					className="hidden md:block h-12 text-[15px] font-medium text-white bg-gradient-primary rounded-full px-9 transition-transform duration-300 ease-in-out hover:scale-105"
+					onClick={scrollToContact}
+				>
 					Hire Me
 				</button>
 			</div>

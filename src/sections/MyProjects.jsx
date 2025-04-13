@@ -33,7 +33,10 @@ const MyProjects = () => {
 					<h4 className="section-title">Recent Projects</h4>
 
 					<p className="text-sm text-center mt-4 leading-6">
-						something something something something something
+						Here are some of the projects I've built to apply and
+						improve my development skills. Each one reflects my
+						interest in solving real-world problems using clean and
+						efficient code.
 					</p>
 				</div>
 
